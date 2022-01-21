@@ -7,7 +7,7 @@ body {
   /* height: 100%; */
   /* width: 100%; */
   margin: 0%;
-  background-image: url(/img/ortak_salon.jpg);
+  background-image: url(./img/ortak_salon.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -30,7 +30,7 @@ main{
 #amblem1{
   width: 20%;
   height: 20%;
-  background-image: url(/img/amblem.jpg);
+  background-image: url(./img/amblem.jpg);
   background-size:contain;
   background-repeat: no-repeat;
   margin: auto;
@@ -43,7 +43,7 @@ main{
 #amblem2{
   width: 20%;
   height: 20%;
-  background-image: url(/img/amblem.jpg);
+  background-image: url(./img/amblem.jpg);
   background-size:contain;
   background-repeat: no-repeat;
   margin: auto;
@@ -93,7 +93,7 @@ button {
   height: 7em;
   border: 3px solid black;
   border-radius: 7em;
-  background-image: url(/img/secmen_sapka1.png);
+  background-image: url(./img/secmen_sapka1.png);
   background-size:cover;
   background-position: center;
   cursor: pointer;
@@ -105,7 +105,7 @@ button {
 }
 
 button:hover{
-  background-image: url(/img/secmen_sapka.gif);
+  background-image: url(./img/secmen_sapka.gif);
   border: hidden;
   position: relative;
   z-index: 1;
