@@ -1,0 +1,124 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  /* height: 100%; */
+  /* width: 100%; */
+  margin: 0%;
+  background-image: url(/img/ortak_salon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Jolly Lodger', cursive;
+}
+
+main{
+  /* width: 50%; */
+  max-width: 20em;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 1.2em auto;
+  padding: 0.5em;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  position:relative;
+}
+
+#amblem1{
+  width: 20%;
+  height: 20%;
+  background-image: url(/img/amblem.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* z-index: -1; */
+}
+
+#amblem2{
+  width: 20%;
+  height: 20%;
+  background-image: url(/img/amblem.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  /* z-index:  -1; */
+}
+
+.amblem1:hover{
+  position: fixed;
+  z-index: 1;
+}
+
+form{
+  overflow: auto;
+}
+
+nav{
+margin: 1em;
+padding: 0.1em;
+}
+
+input:focus{
+  outline: 0em; /*tıklanınca gelen text input kutusu içindeki border ı sıfırlar */
+}
+
+nav input{
+  margin-left: 1.5em;
+}
+
+#name{
+  height:2em;
+  width: 30%;
+}
+
+select{
+  font-family: 'Jolly Lodger', cursive;
+  font-size: 0.9em;
+  margin: 1em;
+  cursor: pointer;
+}
+
+button {
+  display: inline-block;
+  width: 7em;
+  height: 7em;
+  border: 3px solid black;
+  border-radius: 7em;
+  background-image: url(/img/secmen_sapka1.png);
+  background-size:cover;
+  background-position: center;
+  cursor: pointer;
+  color: white;
+  font-family: 'Jolly Lodger', cursive;
+  font-size: 0.7em;
+  font-weight: bolder;
+  letter-spacing: 0.3em;
+}
+
+button:hover{
+  background-image: url(/img/secmen_sapka.gif);
+  border: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#click{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+}
+#click:hover{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  visibility: hidden;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts Admission Form </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Jolly+Lodger" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div id="amblem1"></div>
+        <div id="amblem2"></div>
+
+        <form action="#">
+            <nav>
+                <label for="name">Your Name : </label>
+                <input type="text" name="name" id="name" placeholder="Albus Dumbledore" required>
+            </nav>
+
+            <nav>
+                <p>Is any of the parent Muggle ?</p>
+
+                <input type="radio" name="parent" id="parent1" value="Yes" required>
+                <label for="parent1">Yes</label>
+
+                <input type="radio" name="parent" id="parent2" value="No" checked required>
+                <label for="parent2">No</label>
+            </nav>
+
+            <nav>
+                <p>Which elements you naturally attract to ?</p>
+
+                <input type="checkbox" name="air" id="air">
+                <label for="air">Air</label>
+
+                <input type="checkbox" name="water" id="water">
+                <label for="water">Water</label>
+
+                <input type="checkbox" name="fire" id="fire" checked>
+                <label for="fire">Fire</label>
+
+            </nav>
+
+            <nav>
+                <p>Which is your favorite house at Hogwarts ?</p>
+
+                <select name="house" id="house" required>
+                    <option value="Gryffindor">Gryffindor</option>
+                    <option value="Ravenclaw">Ravenclaw</option>
+                    <option value="Slytherin">Slytherin</option>
+                    <option value="Hufflepuff">Hufflepuff</option>
+                </select>
+            </nav>
+
+            <nav>
+                <button><span id="click">Click</span></button>
+            </nav>
+        </form>
+
+    </main>
+
+    <footer>
+
+        <audio autoplay>
+            <source src="./fon_music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+    </footer>
+
+</body>
+
+</html>
